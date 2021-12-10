@@ -22,3 +22,22 @@
     border-radius: 95%;
 }
     
+  div {
+      background-color: white;
+      opacity: 1;
+}
+      
+.button {
+    background-color: blue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px
+    text-align: center;
+    padding: 4px 8px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
