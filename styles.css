@@ -6,6 +6,7 @@
       border: 1px solid #000;
       text-align: center;
       padding: 50px;
+      opacity: 1.00;
     }
 
   body {
@@ -15,7 +16,7 @@
     font-family: monospace;
 }
 
-.img {
+  img {
     border: 25px solid #445;
     border-radius: 95%;
 
