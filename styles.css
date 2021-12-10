@@ -6,7 +6,7 @@
       border: 1px solid #000;
     }
 
-  .body {
+  body {
     background-image: url("nightandday.jpg");
     background-size: cover;
     background-repeat: no-repeat;
