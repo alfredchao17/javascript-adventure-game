@@ -14,3 +14,7 @@
     background-repeat: no-repeat;
     font-family: monospace;
 }
+
+.img {
+    border: 25px solid #445;
+    border-radius: 95%;
