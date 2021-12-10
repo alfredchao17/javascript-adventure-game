@@ -6,8 +6,11 @@
       border: 1px solid #000;
       text-align: center;
       padding: 50px;
-      opacity: 1.00;
     }
+     
+       div {
+           background-color: white; 
+           opacity: 1;
 
   body {
     background-image: url("nightandday.jpg");
@@ -19,5 +22,5 @@
   img {
     border: 25px solid #445;
     border-radius: 95%;
-
+}
     
