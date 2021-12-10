@@ -32,7 +32,6 @@
     color: black;
     border: 2px solid black;
     border-radius: 4px
-    text-align: center;
     padding: 4px 8px;
     transition-duration: 0.4s;
 }
@@ -41,4 +40,3 @@
     background-color: black;
     color: white;
 }
-
