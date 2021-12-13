@@ -1,21 +1,49 @@
+// console.log("script is loading");
+
+//let firstStage = {
+    //id: 1,
+    //story: "Help Rio escape the night and head back to her town before dawn.",
+    //options: ["start heading to the abandoned building", "find someone to help", "retrace your steps", "look for the flowers close to town"]
+//}
+
+//let secondsStage = {
+    //id: 2,
+    //story: "You were able to get Rio closer to town, but you aren't sure what lies ahead..."
+    //options: [""]
+//}
+
+//let thirdStage = {
+    //id: 3
+//}
+
+//let fourthStage = {
+    //id: 4
+/}
+
 console.log("script is loading");
 
-let firstStage = {
+let adventureDescriptionText = document.querySelector(".adventure-description");
+let optionButtons = document.getElementsByClassName("button");
+
+function updateAdventureText() {
+  adventureDescriptionText.innerText = textAdventure[0].text;
+}
+
+function updateOptions() {
+  let i = 0;
+  for(i; i < optionButtons.length; i++) {
+    console.log(optionButtons[i]);
+    optionButtons[i].innerText = textAdventure[0].options[i];
+  }
+}
+
+const textAdventure = [
+  {
     id: 1,
-    story: "Help Rio escape the night and head back to her town before dawn.",
-    options: ["start heading to the abandoned building", "find someone to help", "retrace your steps", "look for the flowers close to town"]
-}
+    text: "You were able to get Rio closer to town, but you aren't sure what lies ahead... Choose one of the options below.",
+    options: ["Start heading to the abandoned building", "Find someone to help", "Retrace your steps", "Look for the flowers close to town"]
+  },
+]
 
-let secondsStage = {
-    id: 2,
-    story: "You were able to get Rio closer to town, but you aren't sure what lies ahead..."
-    options: [""]
-}
-
-let thirdStage = {
-    id: 3
-}
-
-let fourthStage = {
-    id: 4
-}
+updateAdventureText();
+updateOptions();
