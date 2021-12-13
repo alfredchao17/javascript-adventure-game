@@ -18,7 +18,7 @@
 
 //let fourthStage = {
     //id: 4
-/}
+//}
 
 console.log("script is loading");
 
