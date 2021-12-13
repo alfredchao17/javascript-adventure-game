@@ -1,42 +1,35 @@
-    .container {
-      width: 900px;
-      height: 100%;
-      margin: 40px auto;
-      border-radius: 25px;
-      border: 1px solid #000;
-      text-align: center;
-      padding: 50px;
-      background-color: white;
-      opacity: 2;
-    }
-
-  body {
-    background-image: url("nightandday.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: monospace;
+.container {
+  width: 900px;
+  height: 100%;
+  margin: 40px auto;
+  border-radius: 25px;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
 }
 
-  img {
-    border: 25px solid #445;
-    border-radius: 95%;
+button {
+  min-width: 250px;
+  height: 100px;
+  text-align: center;
+  cursor: pointer;
 }
-    
-  div {
-      background-color: white;
-      opacity: 1;
-}
-      
-    .button {
-        background-color: blue;
-        color: black;
-        border: 2px solid black;
-        border-radius: 4px
-        padding: 4px 8px;
-        transition-duration: 0.4s;
-    }
 
-    .button:hover {
-        background-color: black;
-        color: white;
-    }
+.adventure-description {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.profile {
+  border-radius: 50%;
+  border: 2px #000 solid;
+}
+
+body {
+background-image: url("images/forest.jfif");
+background-size: cover;
+background-repeat: no-repeat;
+font-family: monospace;
+}
