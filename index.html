@@ -1,4 +1,4 @@
-<!doctype html>.
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -10,12 +10,12 @@
 <body>
   <!-- your content here... -->
   <div class="container">
-    <img src="rio.jpg">
+    <img class="profile" src="rio.jpg">
     <h1>JavaScript Adventure Game</h1>
-    <p>This is the adventure of Rio, who got lost in the dark and needs to find the asker and head back to town before its too late.</p>
-    <div id="option-buttons" class="button-grid">
-      <button class="button"></button>
-      <button class="button"></button>
+    <p class="adventure-description">This is the adventure of Rio, who got lost in the dark trying to find the asker and needs to get back to her town.</p>
+    <div id="option-buttons" class="buttons-grid">
+      <button class="button" id="first_btn" onclick="onNextOption(event)"></button>
+      <button class="button" id="second_btn" onclick="onPlayAgain(event)"></button>
     </div>
   </div>
   <script src="js/script.js"></script>
